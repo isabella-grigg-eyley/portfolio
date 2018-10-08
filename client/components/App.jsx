@@ -1,11 +1,12 @@
 import React from 'react'
 
-import HomeScreen from './HomeScreen'
-
+import Words from './Words'
+import AddWord from './AddWord'
 
 const App = () => (
   <div className='app-container'>
-    <HomeScreen />
+    <Words />
+    <AddWord />
   </div>
 )
 
